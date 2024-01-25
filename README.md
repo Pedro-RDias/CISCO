@@ -69,7 +69,7 @@ To configure a banner, you need to run the `banner motd <delimiter> <message> <d
 Example:
 
 ```
-banner motd # This is a banner #
+Router(config)# banner motd ^ Unauthorized access is prohibited! ^
 ```
 
 Be careful with the delimiter you choose, because if you use a character that is present in the message, the message will end prematurely.
